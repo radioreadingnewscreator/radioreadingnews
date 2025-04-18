@@ -1,0 +1,18 @@
+news-radio-app/
+├── backend/
+│   ├── app.py          # Main backend application
+│   ├── news_fetcher.py # Module to fetch news
+│   ├── summarizer.py   # Module for summarizing news
+│   ├── tts_engine.py   # Module for text-to-speech
+│   ├── broadcaster.py  # Module for live broadcasting
+│   └── requirements.txt # Python dependencies
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js       # Main React app
+│   │   ├── components/  # React components
+│   │   ├── services/    # API integration with backend
+│   │   └── styles/      # CSS or Tailwind styling
+│   └── package.json    # Frontend dependencies
+├── README.md           # Documentation
+└── LICENSE             # Licensing
